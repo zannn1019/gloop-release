@@ -21,6 +21,23 @@ one hover away, in a blob that wobbles, blinks and follows your cursor with its 
 
 ---
 
+## What's new in 1.4
+
+<p align="center"><img src="images/tide-launcher.gif" width="760" alt="The Tide launcher: Gloop rises from the bottom of the screen with apps bobbing on the wave; Spotify is picked, runs off, and a volley of spikes from the wave skewers it, covers it in black goo and drags it under"></p>
+
+- **Alt + Tab, Gloop style.** Your open windows hang off his notch as drops; Tab moves a ring
+  along them and he spits out the one you pick.
+- **Volume and brightness as his goo.** The notch fills up to the level, and Windows' grey
+  pop-up stays out of the way.
+- **Win + Shift + S bites out a snip.** Drag a box and he slurps it up, ready to drag into a chat.
+- **A new app launcher, "Tide".** He rises from the bottom of the screen with your apps bobbing
+  on the wave. Open one and it tries to run away, until a volley of spikes drags it into the void.
+- **Angry eyes.** A second look for him, everywhere he appears.
+- **A new right-click menu** with Do not disturb and "Hide for 1 hour".
+- **Fixed:** Gloop no longer vanishes behind maximized windows when your taskbar auto-hides.
+
+---
+
 ## What it does
 
 <table>
@@ -94,6 +111,37 @@ Works with Claude, Gemini, OpenAI or a model on your own PC.
 
 <p align="center"><img src="images/ask.png" width="540" alt="Ask Gloop answering how long to boil an egg, with buttons to set a timer"></p>
 
+### 🚀 App launcher
+Tap the **Windows** key on its own to search your apps, in one of three styles (Settings › Look):
+
+- **Panel**: a search box that drips down from the notch, with a tab for your open windows.
+- **Tide**: he rises from the bottom of the screen and your apps bob on the wave as drops. Type to
+  search and the best match floats up. Open one and it makes a run for it, until a volley of
+  spikes skewers it and drags it into the void.
+- **Orbit**: your apps circle around him.
+
+### 🪟 Windows, Gloop style
+Three bits of Windows he takes over, each with its own switch in **Settings › Features**:
+
+- **Alt + Tab**: hold Alt and his notch spreads into a band with your open windows hanging off it.
+  Tab (or the arrow keys) moves the ring, his eyes follow it, and letting go of Alt brings that
+  window to the front. Shift + Tab goes back, Esc cancels.
+
+  <img src="images/alt-tab.gif" width="720" alt="Alt + Tab: Gloop's notch spreads into a band with Chrome, Spotify, Discord, VS Code, File Explorer and Edge hanging off it; a glowing ring moves along them, with the window's name underneath">
+
+- **Volume and brightness**: the volume keys widen the notch and fill it with his goo up to the
+  level. Muting drains it. Windows' own grey pop-up is hidden while this is on.
+- **Win + Shift + S**: the screen freezes and dims; drag a box (or just click for the whole
+  screen) and he bites it out. The snip is copied, saved to Pictures › Screenshots, and waits on
+  the notch to be dragged into a chat or marked up.
+
+  <img src="images/snip.gif" width="480" alt="Win + Shift + S: the screen dims, a box is drawn, Gloop's goo runs round its edge, and the piece flies up into the notch, which shows it as a screenshot you can drag anywhere">
+
+
+### 😠 Normal or angry
+His eyes come in two styles: soft and round, or sharp and frowning (Settings › Look › Eyes).
+The angry look follows him everywhere: the notch, the launcher, the music face.
+
 ### Pop-ups that stay out of your way
 
 <p align="center">
@@ -127,9 +175,12 @@ Works with Claude, Gemini, OpenAI or a model on your own PC.
 | Ask Gloop | Double-click him, or press **Win + Space** |
 | Clipboard history | **Win + V** |
 | Search apps | Tap the **Windows** key on its own (tap it twice for the normal Start menu) |
+| Switch windows | **Alt + Tab** (hold Alt, press Tab, let go) |
+| Snip part of the screen | **Win + Shift + S** |
 | Move him | Drag him anywhere: glue him to any edge, or leave him floating |
 | Keep a file for later | Drop it on him (it goes on the Shelf) |
-| Settings | Right-click him › **Settings**, or use the tray icon |
+| Quiet him for a while | Right-click him › **Do not disturb**, or **Hide for 1 hour** |
+| Settings | Right-click him (or the tray icon) › **Settings** |
 
 Don't need something? **Settings › Features** turns any part of Gloop off.
 
@@ -211,7 +262,16 @@ asks to *read* your mail and calendar, and you can remove its access any time at
 <details>
 <summary><b>Gloop disappeared when I opened a game or a video.</b></summary>
 <br>
-That's on purpose: he hides while something is fullscreen. Turn it off in Settings › General.
+That's on purpose: he hides while something is fullscreen, and comes back when it isn't. Turn
+it off in Settings › General. (Maximized windows don't count, even with an auto-hiding taskbar;
+if he hid behind one before 1.4, update.)
+</details>
+
+<details>
+<summary><b>Where did he go? I don't see him.</b></summary>
+<br>
+If you chose <b>Hide for 1 hour</b>, right-click the tray icon › <b>Show Gloop again</b>. Or
+right-click the tray icon › <b>Move back to the top</b>.
 </details>
 
 <details>
@@ -221,9 +281,17 @@ Tap the Windows key twice, or turn off <b>App launcher</b> in Settings › Featu
 </details>
 
 <details>
+<summary><b>I want Windows' own Alt + Tab, volume pop-up or Snipping Tool back.</b></summary>
+<br>
+Turn off <b>Window switcher</b>, <b>Volume & brightness</b> or <b>Snip</b> in Settings › Features.
+Inside apps running as administrator (and some games), Windows keeps Alt + Tab for itself, so
+you'll see its normal switcher there.
+</details>
+
+<details>
 <summary><b>He moved and I want him back at the top.</b></summary>
 <br>
-Right-click him › <b>Move back to the top</b>.
+Right-click him (or the tray icon) › <b>Move back to the top</b>.
 </details>
 
 <details>
