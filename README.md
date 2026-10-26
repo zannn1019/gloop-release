@@ -21,7 +21,22 @@ one hover away, in a blob that wobbles, blinks and follows your cursor with its 
 
 ---
 
-## What's new in 1.4
+## What's new in 1.6
+
+- **Screen recording.** Press **Win + Shift + R** (or pick Video in the snip toolbar), drag a box
+  or take the whole screen, and after a 3-2-1 he records it, sound included. His notch shows a red
+  dot and the time; hover it for Stop. The video lands in Videos › Screen Recordings and on the
+  Shelf, ready to drag into a chat. Gloop keeps himself out of the recording.
+- **A snip toolbar.** Win + Shift + S now stretches his notch into a bar: **Box**, **Window**
+  (click a window to take just that), **Whole screen**, and **Photo** or **Video**. It remembers
+  what you used last.
+- **A taskbar buddy.** Put a Live2D character in `Documents\Gloop\buddy` and she sits in his
+  puddle instead of the cat when he's docked on the taskbar: she watches your cursor, dozes off
+  when you're away, sways to your music and reacts when you click her. Drag her to move him.
+  See [Taskbar buddy](#setting-things-up) below.
+
+<details>
+<summary><b>New in 1.4</b></summary>
 
 <p align="center"><img src="images/tide-launcher.gif" width="760" alt="The Tide launcher: Gloop rises from the bottom of the screen with apps bobbing on the wave; Spotify is picked, runs off, and a volley of spikes from the wave skewers it, covers it in black goo and drags it under"></p>
 
@@ -35,6 +50,8 @@ one hover away, in a blob that wobbles, blinks and follows your cursor with its 
 - **Angry eyes.** A second look for him, everywhere he appears.
 - **A new right-click menu** with Do not disturb and "Hide for 1 hour".
 - **Fixed:** Gloop no longer vanishes behind maximized windows when your taskbar auto-hides.
+
+</details>
 
 ---
 
@@ -95,8 +112,8 @@ wait in the bell until you've seen them.
 
 ### 💧 Water, Shelf and more
 Water reminders, a shelf to drop files on and drag them out later, screenshots you can drag
-straight into a chat, a control center, battery and earbuds pop-ups, and a cat when you dock
-him on the taskbar.
+straight into a chat, a control center, battery and earbuds pop-ups, and a cat (or a Live2D
+buddy of your own) when you dock him on the taskbar.
 
 <img src="images/water.png" alt="The Water page: a bottle and buttons to log a glass">
 
@@ -131,9 +148,14 @@ Three bits of Windows he takes over, each with its own switch in **Settings › 
 
 - **Volume and brightness**: the volume keys widen the notch and fill it with his goo up to the
   level. Muting drains it. Windows' own grey pop-up is hidden while this is on.
-- **Win + Shift + S**: the screen freezes and dims; drag a box (or just click for the whole
-  screen) and he bites it out. The snip is copied, saved to Pictures › Screenshots, and waits on
-  the notch to be dragged into a chat or marked up.
+- **Win + Shift + S**: the screen freezes and dims, and his notch stretches into a toolbar: Box,
+  Window, Whole screen, then Photo or Video. Drag a box (or click a window) and he bites it out.
+  The snip is copied, saved to Pictures › Screenshots, and waits on the notch to be dragged into
+  a chat or marked up.
+- **Win + Shift + R**: the same, ready to record. A red edge and a 3-2-1 go round the area, then
+  it records (with your PC's sound; turn that off with **Recording sound** in Settings ›
+  Features). Hover the red dot on the notch and press **Stop**, or press Win + Shift + R again.
+  The MP4 goes to Videos › Screen Recordings and onto the Shelf.
 
   <img src="images/snip.gif" width="480" alt="Win + Shift + S: the screen dims, a box is drawn, Gloop's goo runs round its edge, and the piece flies up into the notch, which shows it as a screenshot you can drag anywhere">
 
@@ -177,6 +199,7 @@ The angry look follows him everywhere: the notch, the launcher, the music face.
 | Search apps | Tap the **Windows** key on its own (tap it twice for the normal Start menu) |
 | Switch windows | **Alt + Tab** (hold Alt, press Tab, let go) |
 | Snip part of the screen | **Win + Shift + S** |
+| Record the screen | **Win + Shift + R** (again to stop) |
 | Move him | Drag him anywhere: glue him to any edge, or leave him floating |
 | Keep a file for later | Drop it on him (it goes on the Shelf) |
 | Quiet him for a while | Right-click him › **Do not disturb**, or **Hide for 1 hour** |
@@ -243,6 +266,29 @@ asks to *read* your mail and calendar, and you can remove its access any time at
 
 </details>
 
+<details>
+<summary><b>Taskbar buddy (a Live2D character)</b></summary>
+
+<br>
+
+Gloop doesn't come with a character; you bring one you like. Any Live2D (Cubism 3 or 4) model
+works if it comes with the usual web player files, like the ones made for websites.
+
+1. Download a model. For example, the Firefly one from
+   [Iskongkongyo/Firefly-live2d](https://github.com/Iskongkongyo/Firefly-live2d): **Code ›
+   Download ZIP**. (It's for personal, non-commercial use; please respect its license.)
+2. Unzip it into `Documents\Gloop\buddy`, so you have `Documents\Gloop\buddy\Firefly-live2d\`
+   with its `model` and `load` folders inside.
+3. Drag Gloop down onto the taskbar (with **Taskbar cat** on in Settings › Features). She sits
+   in his puddle instead of the cat.
+
+Click her to make her react, drag her to pick Gloop up. She uses Microsoft Edge's WebView2, which
+Windows 11 already has; on Windows 10, install the
+[WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if she doesn't
+appear. To go back to the cat, remove the `buddy` folder.
+
+</details>
+
 ---
 
 ## Privacy
@@ -286,6 +332,14 @@ Tap the Windows key twice, or turn off <b>App launcher</b> in Settings › Featu
 Turn off <b>Window switcher</b>, <b>Volume & brightness</b> or <b>Snip</b> in Settings › Features.
 Inside apps running as administrator (and some games), Windows keeps Alt + Tab for itself, so
 you'll see its normal switcher there.
+</details>
+
+<details>
+<summary><b>Where do my screen recordings go?</b></summary>
+<br>
+Videos › Screen Recordings, as MP4. The newest one is also on his Shelf. Win + Shift + R starts
+and stops recording; Windows' Snipping Tool recorder comes back if you turn off <b>Snip</b> in
+Settings › Features.
 </details>
 
 <details>
