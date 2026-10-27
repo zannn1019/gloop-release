@@ -21,8 +21,10 @@ one hover away, in a blob that wobbles, blinks and follows your cursor with its 
 
 ---
 
-## What's new in 1.6
+## What's new in 1.9
 
+- **A real setup.** `Gloop-Setup.exe` now asks where to install him, whether he starts with
+  Windows and about a desktop shortcut, in his own look.
 - **Screen recording.** Press **Win + Shift + R** (or pick Video in the snip toolbar), drag a box
   or take the whole screen, and after a 3-2-1 he records it, sound included. His notch shows a red
   dot and the time; hover it for Stop. The video lands in Videos › Screen Recordings and on the
@@ -30,10 +32,10 @@ one hover away, in a blob that wobbles, blinks and follows your cursor with its 
 - **A snip toolbar.** Win + Shift + S now stretches his notch into a bar: **Box**, **Window**
   (click a window to take just that), **Whole screen**, and **Photo** or **Video**. It remembers
   what you used last.
-- **A taskbar buddy.** Put a Live2D character in `Documents\Gloop\buddy` and she sits in his
-  puddle instead of the cat when he's docked on the taskbar: she watches your cursor, dozes off
-  when you're away, sways to your music and reacts when you click her. Drag her to move him.
-  See [Taskbar buddy](#setting-things-up) below.
+- **A taskbar buddy.** One click in Settings (**Get Firefly**, or add any Live2D model) and she
+  sits in his puddle instead of the cat when he's docked on the taskbar: she watches your cursor,
+  dozes off when you're away, sways to your music and reacts when you click her. Drag her to move
+  him. See [Taskbar buddy](#setting-things-up) below.
 
 <details>
 <summary><b>New in 1.4</b></summary>
@@ -176,10 +178,15 @@ The angry look follows him everywhere: the notch, the launcher, the music face.
 
 ## Install
 
-1. **[Download `Gloop-win-Setup.exe`](https://github.com/zannn1019/gloop-release/releases/latest)** from the latest release.
-2. Run it. Gloop installs just for you (no admin needed), appears at the top of your screen and
-   starts with Windows from now on.
-3. That's it. Gloop updates itself when a new version comes out.
+1. **[Download `Gloop-Setup.exe`](https://github.com/zannn1019/gloop-release/releases/latest/download/Gloop-Setup.exe)** from the latest release.
+2. Run it. Gloop says hi and asks where he should live (your user folder by default, no admin
+   needed), whether he starts with Windows, and if you want a desktop shortcut. Then **Install**.
+3. That's it: he appears at the top of your screen, and updates himself when a new version comes
+   out.
+
+> Prefer one click with no questions? `Gloop-win-Setup.exe` on the same release installs straight
+> to your user folder. Picking a protected folder like Program Files works too, but Windows will
+> ask for permission then, and for each update.
 
 > **"Windows protected your PC"?** Gloop isn't code-signed yet, so Windows SmartScreen may warn
 > about it the first time. Click **More info › Run anyway**.
@@ -274,18 +281,21 @@ asks to *read* your mail and calendar, and you can remove its access any time at
 Gloop doesn't come with a character; you bring one you like. Any Live2D (Cubism 3 or 4) model
 works if it comes with the usual web player files, like the ones made for websites.
 
-1. Download a model. For example, the Firefly one from
-   [Iskongkongyo/Firefly-live2d](https://github.com/Iskongkongyo/Firefly-live2d): **Code ›
-   Download ZIP**. (It's for personal, non-commercial use; please respect its license.)
-2. Unzip it into `Documents\Gloop\buddy`, so you have `Documents\Gloop\buddy\Firefly-live2d\`
-   with its `model` and `load` folders inside.
+1. Right-click Gloop › **Settings › Look & personality › Taskbar buddy**.
+2. Click **Get Firefly** to download her from her project,
+   [Iskongkongyo/Firefly-live2d](https://github.com/Iskongkongyo/Firefly-live2d) (about 11 MB;
+   she's fan-made, for personal, non-commercial use). Or **Add from file…** to use another Live2D
+   model you have (a `.zip`, or its `.model3.json`).
 3. Drag Gloop down onto the taskbar (with **Taskbar cat** on in Settings › Features). She sits
    in his puddle instead of the cat.
 
-Click her to make her react, drag her to pick Gloop up. She uses Microsoft Edge's WebView2, which
+She lives in `Documents\Gloop\buddy`; **Remove** in the same place brings the cat back.
+
+Click her to make her react, drag her to pick Gloop up. To make her bigger without making Gloop
+bigger, use **Taskbar buddy size** in Settings › Look & personality. She uses Microsoft Edge's WebView2, which
 Windows 11 already has; on Windows 10, install the
 [WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if she doesn't
-appear. To go back to the cat, remove the `buddy` folder.
+appear.
 
 </details>
 
