@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64" role="img" aria-label="Download Gloop for Windows">
+  <g font-family="'Segoe UI Variable Text','Segoe UI',system-ui,-apple-system,sans-serif">
+    <!-- a soft shadow, then the pill (a thin rim keeps it visible on a white page too) -->
+    <rect x="6" y="10" width="308" height="50" rx="25" fill="#000" opacity="0.18"/>
+    <rect x="6" y="5" width="308" height="50" rx="25" fill="#F2F3F7" stroke="#0B0C10" stroke-opacity="0.18" stroke-width="1.5"/>
+    <!-- the arrow into the tray -->
+    <g transform="translate(58 30)" stroke="#0B0C10" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -11 V5"/>
+      <path d="M-6.5 -1.5 L0 5 L6.5 -1.5"/>
+      <path d="M-9 11 H9"/>
+    </g>
+    <text x="178" y="37" text-anchor="middle" font-size="19" font-weight="700" fill="#0B0C10">Download for Windows</text>
+  </g>
+</svg>

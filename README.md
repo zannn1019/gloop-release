@@ -1,296 +1,184 @@
 <div align="center">
 
-<a href="https://github.com/zannn1019/gloop-release/releases/latest"><img src="images/readme/hero.svg" width="100%" alt="Gloop, a black notch with two glowing eyes at the top of a Windows desktop, watches a cursor come closer, opens into a music player when it is clicked, then closes and lets a drop of goo fall"></a>
+<img src="images/readme/hero.svg" width="100%" alt="Gloop, a black notch with two glowing eyes at the top of a Windows desktop, watches a cursor come closer, opens into a music player when it is clicked, then closes and lets a drop of goo fall">
 
 # Gloop
 
 **A little liquid creature that lives in the notch at the top of your Windows screen.**
 
-Music, your calendar, notifications, clipboard history, meeting transcripts and an AI assistant,
-one hover away, in a blob that wobbles, blinks and follows your cursor with its eyes.
+Music, your calendar, notifications, clipboard history and an AI assistant, one hover away.
 
-[![Latest release](https://img.shields.io/github/v/release/zannn1019/gloop-release?label=download&color=4FB4FF)](https://github.com/zannn1019/gloop-release/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/zannn1019/gloop-release/total?color=8D92A0)](https://github.com/zannn1019/gloop-release/releases)
+<a href="https://github.com/zannn1019/gloop-release/releases/latest/download/Gloop-Setup.exe"><img src="images/readme/download.svg" width="320" alt="Download Gloop for Windows"></a>
+
+[![Latest version](https://img.shields.io/github/v/release/zannn1019/gloop-release?label=version&color=4FB4FF)](https://github.com/zannn1019/gloop-release/releases/latest)
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0B0C10)
-
-### [⬇ Download Gloop for Windows](https://github.com/zannn1019/gloop-release/releases/latest)
+![Free](https://img.shields.io/badge/price-free-8D92A0)
 
 </div>
 
-<img src="images/readme/divider.svg" width="100%" alt="">
-
-## Say hi
-
-He's shy in a README too. Give him a poke:
-
-<details>
-<summary><img src="images/readme/poke.svg" width="720" alt="Gloop's closed notch, looking around and blinking. Click to poke him."></summary>
-
-<br>
-
-<p align="center"><img src="images/tour.gif" width="700" alt="Gloop opening from the top of the screen and moving through its Music, Today, Clipboard and Meetings pages, then showing a meeting that's starting with a Join button"></p>
-
-<p align="center"><sub>That's him opening for real. Click the notch again to put him back to sleep.</sub></p>
-
-</details>
-
-## Press a key
-
-Every key below is one he takes over. Press one to see what he does with it.
-
-<details>
-<summary><img src="images/readme/key-win.svg" height="40" align="middle" alt="The Windows key"> &nbsp;<b>Search your apps</b></summary>
-<br>
-<p align="center"><img src="images/tide-launcher.gif" width="720" alt="The Tide launcher: Gloop rises from the bottom of the screen with apps bobbing on the wave; one is picked, runs off, and spikes from the wave drag it under"></p>
-<p align="center"><sub>Tap it on its own. Tap it twice for the normal Start menu.</sub></p>
-</details>
-
-<details>
-<summary><img src="images/readme/key-alt-tab.svg" height="40" align="middle" alt="Alt plus Tab"> &nbsp;<b>Switch windows</b></summary>
-<br>
-<p align="center"><img src="images/alt-tab.gif" width="720" alt="Alt + Tab: Gloop's notch spreads into a band with open windows hanging off it; a glowing ring moves along them"></p>
-<p align="center"><sub>Hold Alt, press Tab. His eyes follow the ring.</sub></p>
-</details>
-
-<details>
-<summary><img src="images/readme/key-snip.svg" height="40" align="middle" alt="Windows plus Shift plus S"> &nbsp;<b>Bite out a snip</b></summary>
-<br>
-<p align="center"><img src="images/snip.gif" width="480" alt="The screen dims, a box is drawn, Gloop's goo runs round its edge, and the piece flies up into the notch"></p>
-<p align="center"><sub>Box, Window or Whole screen. The snip waits on the notch to be dragged into a chat.</sub></p>
-</details>
-
-<details>
-<summary><img src="images/readme/key-record.svg" height="40" align="middle" alt="Windows plus Shift plus R"> &nbsp;<b>Record the screen</b></summary>
-<br>
-<p align="center"><img src="images/recording.png" width="360" alt="A small recording pill with the time and Pause and Stop buttons"></p>
-<p align="center"><sub>A 3-2-1, then he records, sound included. Press it again to stop.</sub></p>
-</details>
-
-<details>
-<summary><img src="images/readme/key-clipboard.svg" height="40" align="middle" alt="Windows plus V"> &nbsp;<b>Clipboard history</b></summary>
-<br>
-<p align="center"><img src="images/clipboard.png" width="560" alt="The Clipboard page: pinned items and recent copies"></p>
-<p align="center"><sub>Everything you copied, searchable. Pin what you paste every day.</sub></p>
-</details>
-
-<details>
-<summary><img src="images/readme/key-ask.svg" height="40" align="middle" alt="Windows plus Space"> &nbsp;<b>Ask Gloop anything</b></summary>
-<br>
-<p align="center"><img src="images/ask.png" width="540" alt="Ask Gloop answering how long to boil an egg, with buttons to set a timer"></p>
-<p align="center"><sub>Or double-click him. Works with Claude, Gemini, OpenAI or a model on your own PC.</sub></p>
-</details>
-
-<img src="images/readme/divider.svg" width="100%" alt="">
-
-## What's new in 1.13
-
-- **His own Spotify player.** With Spicetify and the Gloop bridge extension
-  (`mods\SpicetifyBridge`), Win + M brings out his own light player instead of Spotify's window:
-  Now playing (like, shuffle, repeat, volume), Search, Up next and your Playlists. Spotify stays
-  hidden and just plays.
-- **Spotify in his pocket.** Win + M pops Spotify out of his notch in the middle of the dimmed
-  screen; Win + M again, Esc or a click elsewhere slurps it back in, and it keeps playing hidden
-  (off the screen, taskbar and Alt + Tab). Only with the Spotify app installed; Settings ›
-  Features › Spotify pocket turns it off (and gives Win + M back to Windows).
-
-- **Live previews in Alt + Tab.** One big live picture of the window you're on hangs below his
-  band, or every drop shows its window live; pick in Settings › Look & personality.
-- **Alt + F4, Gloop style.** On the desktop his notch opens into a power menu (Shut down,
-  Restart, Sleep, Lock, Sign out; Shut down waits 3 seconds so Esc can stop it). In an app,
-  Alt + F4 closes it as usual and he swallows the window as it goes.
-- **A real setup.** `Gloop-Setup.exe` now asks where to install him, whether he starts with
-  Windows and about a desktop shortcut, in his own look.
-- **Screen recording.** Press **Win + Shift + R** (or pick Video in the snip toolbar), drag a box
-  or take the whole screen, and after a 3-2-1 he records it, sound included. His notch shows a red
-  dot and the time; hover it for Stop. The video lands in Videos › Screen Recordings and on the
-  Shelf, ready to drag into a chat. Gloop keeps himself out of the recording.
-- **A snip toolbar.** Win + Shift + S now stretches his notch into a bar: **Box**, **Window**
-  (click a window to take just that), **Whole screen**, and **Photo** or **Video**. It remembers
-  what you used last.
-- **A taskbar buddy.** One click in Settings (**Get Firefly**, or add any Live2D model) and she
-  sits in his puddle instead of the cat when he's docked on the taskbar: she watches your cursor,
-  dozes off when you're away, sways to your music and reacts when you click her. Drag her to move
-  him. See [Taskbar buddy](#setting-things-up) below.
-
-<details>
-<summary><b>New in 1.4</b></summary>
-
-<p align="center"><img src="images/tide-launcher.gif" width="760" alt="The Tide launcher: Gloop rises from the bottom of the screen with apps bobbing on the wave; Spotify is picked, runs off, and a volley of spikes from the wave skewers it, covers it in black goo and drags it under"></p>
-
-- **Alt + Tab, Gloop style.** Your open windows hang off his notch as drops; Tab moves a ring
-  along them and he spits out the one you pick.
-- **Volume and brightness as his goo.** The notch fills up to the level, and Windows' grey
-  pop-up stays out of the way.
-- **Win + Shift + S bites out a snip.** Drag a box and he slurps it up, ready to drag into a chat.
-- **A new app launcher, "Tide".** He rises from the bottom of the screen with your apps bobbing
-  on the wave. Open one and it tries to run away, until a volley of spikes drags it into the void.
-- **Angry eyes.** A second look for him, everywhere he appears.
-- **A new right-click menu** with Do not disturb and "Hide for 1 hour".
-- **Fixed:** Gloop no longer vanishes behind maximized windows when your taskbar auto-hides.
-
-</details>
-
-<img src="images/readme/divider.svg" width="100%" alt="">
-
-## What it does
+## Get started
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 🎵 Music
-What's playing in Spotify, YouTube, your browser or any player, with the cover, a progress bar
-and controls. Gloop bounces to the beat and sings along with synced lyrics.
+**1 · Download**
 
-<img src="images/music.png" alt="The Music page: cover art, song title, progress bar and play controls">
+`Gloop-Setup.exe`, from the button above.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 📅 Today
-Your Google Calendar at a glance: a strip of the day, what's next, and **Join** for Meet, Zoom
-and Teams calls. A heads-up pops out a few minutes before each one.
+**2 · Run it**
 
-<img src="images/today.png" alt="The Today page: a timeline of the day and a list of events with Join buttons">
+Pick a folder (your user folder is fine), then **Install**. No admin needed.
 
 </td>
-</tr>
-<tr>
-<td valign="top">
+<td width="33%" valign="top">
 
-### 📋 Clipboard history
-Everything you copy, searchable: text, links, colors, code, pictures and files. Pin the things
-you paste every day. Opens with **Win + V**. Passwords from password managers are never kept.
+**3 · Say hi**
 
-<img src="images/clipboard.png" alt="The Clipboard page: pinned items and recent copies">
-
-</td>
-<td valign="top">
-
-### 🎙️ Meeting transcripts
-When a call starts, Gloop offers to write it down, with who said what. It runs on your PC (no
-cloud needed), works with English and Indonesian, and saves to Word or text.
-
-<img src="images/meetings.png" alt="A meeting transcript with colored speaker names and timestamps">
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### 🔔 Notifications
-Messages from WhatsApp, Teams, Discord, your browser and Gmail slide out of the notch, and
-wait in the bell until you've seen them.
-
-<img src="images/inbox.png" alt="The Notifications page with messages from Gmail and Discord">
-
-</td>
-<td valign="top">
-
-### 💧 Water, Shelf and more
-Water reminders, a shelf to drop files on and drag them out later, screenshots you can drag
-straight into a chat, a control center, battery and earbuds pop-ups, and a cat (or a Live2D
-buddy of your own) when you dock him on the taskbar.
-
-<img src="images/water.png" alt="The Water page: a bottle and buttons to log a glass">
+Hover the notch at the top of your screen. He updates himself from now on.
 
 </td>
 </tr>
 </table>
 
-### ✨ Ask Gloop
-Double-click him (or press **Win + Space**) and ask anything. He can open apps, set timers, turn
-on Do not disturb, control your music, read your recent notifications and look at your screen.
-Works with Claude, Gemini, OpenAI or a model on your own PC.
+> **"Windows protected your PC"?** Gloop isn't code-signed yet, so SmartScreen may warn the first
+> time. Click **More info › Run anyway**.
 
+Needs Windows 10 (version 2004 or later) or Windows 11, 64-bit. Nothing else to install.
 
-### 🚀 App launcher
-Tap the **Windows** key on its own to search your apps, in one of three styles (Settings › Look):
+## What he does
 
-- **Panel**: a search box that drips down from the notch, with a tab for your open windows.
-- **Tide**: he rises from the bottom of the screen and your apps bob on the wave as drops. Type to
-  search and the best match floats up. Open one and it makes a run for it, until a volley of
-  spikes skewers it and drags it into the void.
-- **Orbit**: your apps circle around him.
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="images/music.png" width="100%" alt="The Music page: cover art, song title, progress bar and play controls"><br>
+<b>Music</b><br>
+Whatever's playing, in any app, with synced lyrics. He bounces to the beat and sings along.
+</td>
+<td width="50%" valign="top">
+<img src="images/today.png" width="100%" alt="The Today page: a timeline of the day and a list of events with Join buttons"><br>
+<b>Today</b><br>
+Your Google Calendar at a glance, with <b>Join</b> for Meet, Zoom and Teams calls.
+</td>
+</tr>
+<tr>
+<td valign="top">
+<img src="images/clipboard.png" width="100%" alt="The Clipboard page: pinned items and recent copies"><br>
+<b>Clipboard</b><br>
+Everything you copied, searchable. Pin what you paste every day.
+</td>
+<td valign="top">
+<img src="images/meetings.png" width="100%" alt="A meeting transcript with colored speaker names and timestamps"><br>
+<b>Meeting notes</b><br>
+When a call starts he offers to write it down, with who said what, on your PC.
+</td>
+</tr>
+<tr>
+<td valign="top">
+<img src="images/inbox.png" width="100%" alt="The Notifications page with messages from Gmail and Discord"><br>
+<b>Notifications</b><br>
+WhatsApp, Teams, Discord, your browser and Gmail slide out of the notch.
+</td>
+<td valign="top">
+<img src="images/ask.png" width="100%" alt="Ask Gloop answering how long to boil an egg, with buttons to set a timer"><br>
+<b>Ask Gloop</b><br>
+An AI that opens apps, sets timers, plays music and looks at your screen.
+</td>
+</tr>
+</table>
 
-### 🪟 Windows, Gloop style
-Three bits of Windows he takes over, each with its own switch in **Settings › Features**:
+He also does water reminders, a shelf for files, a control center, battery and earbuds pop-ups,
+and turns into a cat when you dock him on the taskbar.
 
-- **Alt + Tab**: hold Alt and his notch spreads into a band with your open windows hanging off it.
-  Tab (or the arrow keys) moves the ring, his eyes follow it, and letting go of Alt brings that
-  window to the front. Shift + Tab goes back, Esc cancels.
+## Shortcuts
 
+| Press | To | Press | To |
+|---|---|---|---|
+| <kbd>Win</kbd> | Search your apps | <kbd>Win</kbd> <kbd>V</kbd> | Clipboard history |
+| <kbd>Alt</kbd> <kbd>Tab</kbd> | Switch windows | <kbd>Win</kbd> <kbd>Space</kbd> | Ask Gloop |
+| <kbd>Win</kbd> <kbd>Shift</kbd> <kbd>S</kbd> | Snip part of the screen | <kbd>Win</kbd> <kbd>M</kbd> | Gloop Music |
+| <kbd>Win</kbd> <kbd>Shift</kbd> <kbd>R</kbd> | Record the screen (again to stop) | <kbd>Win</kbd> <kbd>Esc</kbd> | Lock with Gloop |
+| <kbd>Alt</kbd> <kbd>F4</kbd> on the desktop | Shut down, restart, sleep, lock | Double-click him | Ask Gloop |
 
-- **Volume and brightness**: the volume keys widen the notch and fill it with his goo up to the
-  level. Muting drains it. Windows' own grey pop-up is hidden while this is on.
-- **Win + Shift + S**: the screen freezes and dims, and his notch stretches into a toolbar: Box,
-  Window, Whole screen, then Photo or Video. Drag a box (or click a window) and he bites it out.
-  The snip is copied, saved to Pictures › Screenshots, and waits on the notch to be dragged into
-  a chat or marked up.
-- **Win + Shift + R**: the same, ready to record. A red edge and a 3-2-1 go round the area, then
-  it records (with your PC's sound; turn that off with **Recording sound** in Settings ›
-  Features). Hover the red dot on the notch and press **Stop**, or press Win + Shift + R again.
-  The MP4 goes to Videos › Screen Recordings and onto the Shelf.
+**Getting around:** hover or click the notch to open him, click the icons at the bottom (or
+scroll) to switch pages, and drag him to any edge of the screen or leave him floating. Drop a
+file on him to keep it on his Shelf. Right-click him for **Settings**, **Do not disturb** and
+**Hide for 1 hour**.
 
+Tap <kbd>Win</kbd> twice for the normal Start menu. Don't want one of these? **Settings ›
+Features** turns any part of Gloop off.
 
+## Works right away, or after a quick setup
 
-### 😠 Normal or angry
-His eyes come in two styles: soft and round, or sharp and frowning (Settings › Look › Eyes).
-The angry look follows him everywhere: the notch, the launcher, the music face.
+<table>
+<tr><th width="50%">Works right away</th><th width="50%">Connect it first</th></tr>
+<tr>
+<td valign="top">
+Music from any player, with lyrics<br>
+Clipboard history, Shelf, Water<br>
+Notifications from your apps<br>
+Control center, battery and devices<br>
+Snips and screen recordings<br>
+App launcher and window switcher
+</td>
+<td valign="top">
+<b>Ask Gloop</b>: your own AI key (<a href="#set-things-up">how</a>)<br>
+<b>Gmail and Calendar</b>: a free Google key (<a href="#set-things-up">how</a>)<br>
+<b>Meeting notes</b>: a speech model, one download (<a href="#set-things-up">how</a>)<br>
+<b>Taskbar buddy</b>: a Live2D character (<a href="#set-things-up">how</a>)<br>
+<b>His own Spotify player</b>: Spicetify and the Gloop bridge
+</td>
+</tr>
+</table>
 
-### Pop-ups that stay out of your way
+## New lately
 
-<p align="center">
-<img src="images/calendar-join.png" width="560" alt="A meeting starting now, with Join and Join and transcribe buttons"><br>
-<img src="images/notification.png" width="520" alt="A new Gmail message sliding out of the notch"><br>
-<img src="images/recording.png" width="360" alt="A small recording pill with the time and Pause and Stop buttons">
-</p>
+- **Gloop Music.** <kbd>Win</kbd> <kbd>M</kbd> (or double-click the lyrics) opens full-screen
+  lyrics over the song's video or cover. With Spicetify, your Spotify library and playlists are
+  there too.
+- **Karaoke lyrics.** Lines light up word by word as they're sung, and pinned lyrics can drip out
+  of his notch one word at a time.
+- **Moods.** His face, glow and moves follow how the song feels, and his mouth sings along.
+- **Lock with Gloop.** <kbd>Win</kbd> <kbd>Esc</kbd>: his goo pours down over the screen, then a
+  calm away screen shows the time, the song and your next event (Settings › Look › Away screen).
 
-<img src="images/readme/divider.svg" width="100%" alt="">
+<details>
+<summary><b>Older versions</b></summary>
 
-## Install
+<br>
 
-1. **[Download `Gloop-Setup.exe`](https://github.com/zannn1019/gloop-release/releases/latest/download/Gloop-Setup.exe)** from the latest release.
-2. Run it. Gloop says hi and asks where he should live (your user folder by default, no admin
-   needed), whether he starts with Windows, and if you want a desktop shortcut. Then **Install**.
-3. That's it: he appears at the top of your screen, and updates himself when a new version comes
-   out.
+**1.13**
 
-> Prefer one click with no questions? `Gloop-win-Setup.exe` on the same release installs straight
-> to your user folder. Picking a protected folder like Program Files works too, but Windows will
-> ask for permission then, and for each update.
+- **His own Spotify player.** With Spicetify and the Gloop bridge extension, Win + M brings out
+  his own light player instead of Spotify's window: Now playing (like, shuffle, repeat, volume),
+  Search, Up next and your Playlists. Spotify stays hidden and just plays.
+- **Spotify in his pocket.** Win + M pops Spotify out of his notch in the middle of the dimmed
+  screen; Win + M again, Esc or a click elsewhere slurps it back in, and it keeps playing hidden.
+- **Live previews in Alt + Tab**, picked in Settings › Look & personality.
+- **Alt + F4, Gloop style.** On the desktop his notch opens into a power menu; in an app he
+  swallows the window as it closes.
+- **A real setup** that asks where to install him, whether he starts with Windows and about a
+  desktop shortcut.
+- **Screen recording** with Win + Shift + R, sound included. The video lands in Videos › Screen
+  Recordings and on the Shelf.
+- **A snip toolbar:** Box, Window, Whole screen, and Photo or Video.
+- **A taskbar buddy:** a Live2D character who sits in his puddle instead of the cat.
 
-> **"Windows protected your PC"?** Gloop isn't code-signed yet, so Windows SmartScreen may warn
-> about it the first time. Click **More info › Run anyway**.
+**1.4**
 
-**Needs:** Windows 10 (version 2004 or later) or Windows 11, 64-bit. Nothing else to install.
+- **Alt + Tab, Gloop style:** your windows hang off his notch as drops.
+- **Volume and brightness as his goo**, with Windows' grey pop-up out of the way.
+- **Win + Shift + S bites out a snip**, ready to drag into a chat.
+- **The Tide launcher:** he rises from the bottom of the screen with your apps bobbing on the wave.
+- **Angry eyes**, a second look for him everywhere.
+- **A new right-click menu** with Do not disturb and "Hide for 1 hour".
 
-<img src="images/readme/divider.svg" width="100%" alt="">
+</details>
 
-## Getting started
-
-| To… | Do this |
-|---|---|
-| Open him | Hover over or click the notch |
-| Switch pages | Click the icons at the bottom, or scroll |
-| Ask Gloop | Double-click him, or press **Win + Space** |
-| Clipboard history | **Win + V** |
-| Search apps | Tap the **Windows** key on its own (tap it twice for the normal Start menu) |
-| Switch windows | **Alt + Tab** (hold Alt, press Tab, let go) |
-| Snip part of the screen | **Win + Shift + S** |
-| Record the screen | **Win + Shift + R** (again to stop) |
-| Shut down, restart, sleep, lock | **Alt + F4** on the desktop |
-| Spotify as a popup | **Win + M** (again, or Esc, to put it away) |
-| Move him | Drag him anywhere: glue him to any edge, or leave him floating |
-| Keep a file for later | Drop it on him (it goes on the Shelf) |
-| Quiet him for a while | Right-click him › **Do not disturb**, or **Hide for 1 hour** |
-| Settings | Right-click him (or the tray icon) › **Settings** |
-
-Don't need something? **Settings › Features** turns any part of Gloop off.
-
-<img src="images/readme/divider.svg" width="100%" alt="">
-
-## Setting things up
+## Set things up
 
 <details>
 <summary><b>Ask Gloop (the AI assistant)</b></summary>
@@ -308,19 +196,6 @@ Gloop uses your own AI account, so you choose the service and nothing is shared 
 3. Double-click Gloop and ask away.
 
 Keys are stored encrypted for your Windows account.
-
-</details>
-
-<details>
-<summary><b>Meeting transcripts</b></summary>
-
-<br>
-
-1. Right-click Gloop › **Settings › Meetings**.
-2. Choose **On this PC** and download a speech model once (**Fast**, about 200 MB, or **Better**,
-   about 400 MB, which handles Indonesian well). Or choose **Gemini** to use your Gemini key.
-3. When Zoom, Teams, Meet or Discord starts a call, Gloop asks if you want a transcript. Nothing
-   is recorded unless you say yes. Please let the people on the call know.
 
 </details>
 
@@ -348,6 +223,21 @@ asks to *read* your mail and calendar, and you can remove its access any time at
 </details>
 
 <details>
+<summary><b>Meeting notes</b></summary>
+
+<br>
+
+1. Right-click Gloop › **Settings › Meetings**.
+2. Choose **On this PC** and download a speech model once (**Fast**, about 200 MB, or **Better**,
+   about 400 MB, which handles Indonesian well). Or choose **Gemini** to use your Gemini key.
+3. When Zoom, Teams, Meet or Discord starts a call, Gloop asks if you want a transcript. Nothing
+   is recorded unless you say yes. Please let the people on the call know.
+
+Transcripts save to Word or text.
+
+</details>
+
+<details>
 <summary><b>Taskbar buddy (a Live2D character)</b></summary>
 
 <br>
@@ -363,19 +253,34 @@ works if it comes with the usual web player files, like the ones made for websit
 3. Drag Gloop down onto the taskbar (with **Taskbar cat** on in Settings › Features). She sits
    in his puddle instead of the cat.
 
-She lives in `Documents\Gloop\buddy`; **Remove** in the same place brings the cat back.
-
-Click her to make her react, drag her to pick Gloop up. To make her bigger without making Gloop
-bigger, use **Taskbar buddy size** in Settings › Look & personality. She uses Microsoft Edge's WebView2, which
-Windows 11 already has; on Windows 10, install the
-[WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if she doesn't
-appear.
+She lives in `Documents\Gloop\buddy`; **Remove** in the same place brings the cat back. Click her
+to make her react, drag her to pick Gloop up, and use **Taskbar buddy size** in Settings › Look &
+personality to make her bigger. She uses Microsoft Edge's WebView2, which Windows 11 already has;
+on Windows 10, install the [WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)
+if she doesn't appear.
 
 </details>
 
-<img src="images/readme/divider.svg" width="100%" alt="">
+<details>
+<summary><b>Other ways to install</b></summary>
+
+<br>
+
+Prefer one click with no questions? `Gloop-win-Setup.exe` on the
+[latest release](https://github.com/zannn1019/gloop-release/releases/latest) installs straight to
+your user folder. Picking a protected folder like Program Files works too, but Windows will ask
+for permission then, and for each update.
+
+To uninstall: Windows Settings › Apps › Installed apps › **Gloop** › Uninstall.
+
+</details>
 
 ## Privacy
+
+<details>
+<summary><b>What Gloop keeps, and what it sends</b></summary>
+
+<br>
 
 - **Hidden from screenshots and screen sharing** by default, so Gloop never shows up in your
   calls or captures (Settings › Privacy).
@@ -385,9 +290,11 @@ appear.
 - **API keys are encrypted** for your Windows account.
 - **Song moods:** with Ask Gloop set up, only a song's title and artist go to your AI, once per
   song, so he can wear its mood. Turn off **Moods with the music** in Settings › Look to stop it.
+- **Lyrics** are looked up on LRCLIB (or NetEase when LRCLIB has none) with the song's title,
+  artist and length.
 - **No accounts, no tracking, no analytics.** Gloop only talks to the services you connect.
 
-<img src="images/readme/divider.svg" width="100%" alt="">
+</details>
 
 ## Questions
 
@@ -395,8 +302,7 @@ appear.
 <summary><b>Gloop disappeared when I opened a game or a video.</b></summary>
 <br>
 That's on purpose: he hides while something is fullscreen, and comes back when it isn't. Turn
-it off in Settings › General. (Maximized windows don't count, even with an auto-hiding taskbar;
-if he hid behind one before 1.4, update.)
+it off in Settings › General.
 </details>
 
 <details>
@@ -404,6 +310,12 @@ if he hid behind one before 1.4, update.)
 <br>
 If you chose <b>Hide for 1 hour</b>, right-click the tray icon › <b>Show Gloop again</b>. Or
 right-click the tray icon › <b>Move back to the top</b>.
+</details>
+
+<details>
+<summary><b>He moved and I want him back at the top.</b></summary>
+<br>
+Right-click him (or the tray icon) › <b>Move back to the top</b>.
 </details>
 
 <details>
@@ -423,15 +335,7 @@ you'll see its normal switcher there.
 <details>
 <summary><b>Where do my screen recordings go?</b></summary>
 <br>
-Videos › Screen Recordings, as MP4. The newest one is also on his Shelf. Win + Shift + R starts
-and stops recording; Windows' Snipping Tool recorder comes back if you turn off <b>Snip</b> in
-Settings › Features.
-</details>
-
-<details>
-<summary><b>He moved and I want him back at the top.</b></summary>
-<br>
-Right-click him (or the tray icon) › <b>Move back to the top</b>.
+Videos › Screen Recordings, as MP4. The newest one is also on his Shelf.
 </details>
 
 <details>
@@ -440,17 +344,11 @@ Right-click him (or the tray icon) › <b>Move back to the top</b>.
 Gloop checks every few hours. To check now, click the version number at the bottom of Settings.
 </details>
 
-<details>
-<summary><b>How do I uninstall it?</b></summary>
 <br>
-Windows Settings › Apps › Installed apps › <b>Gloop</b> › Uninstall.
-</details>
-
-<img src="images/readme/divider.svg" width="100%" alt="">
 
 <div align="center">
 
-<img src="images/readme/sleep.svg" width="480" alt="Gloop asleep: his notch with closed eyes and little z's floating up">
+<img src="images/readme/sleep.svg" width="360" alt="Gloop asleep: his notch with closed eyes and little z's floating up">
 
 Found a bug or have an idea? [Open an issue](https://github.com/zannn1019/gloop-release/issues).
 
