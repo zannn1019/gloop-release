@@ -129,7 +129,7 @@ App launcher and window switcher
 <b>Gmail and Calendar</b>: a free Google key (<a href="#set-things-up">how</a>)<br>
 <b>Meeting notes</b>: a speech model, one download (<a href="#set-things-up">how</a>)<br>
 <b>Taskbar buddy</b>: a Live2D character (<a href="#set-things-up">how</a>)<br>
-<b>His own Spotify player</b>: Spicetify and the Gloop bridge
+<b>His own Spotify player</b>: one click in Settings (<a href="#set-things-up">how</a>)
 </td>
 </tr>
 </table>
@@ -258,6 +258,28 @@ to make her react, drag her to pick Gloop up, and use **Taskbar buddy size** in 
 personality to make her bigger. She uses Microsoft Edge's WebView2, which Windows 11 already has;
 on Windows 10, install the [WebView2 Runtime](https://developer.microsoft.com/microsoft-edge/webview2/)
 if she doesn't appear.
+
+</details>
+
+<details>
+<summary><b>His own Spotify player</b></summary>
+
+<br>
+
+Gloop's own Spotify player (Win + M), your library and search, Canvas videos and word-by-word
+lyrics need a small add-on inside Spotify. Gloop sets it up for you:
+
+1. Install Spotify from [spotify.com](https://www.spotify.com/download/windows/) (the Microsoft
+   Store version can't take add-ons) and sign in once.
+2. Right-click Gloop › **Settings › Look & personality**, find **Gloop's Spotify player**, choose
+   whether you also want **Spicy Lyrics** and **Block ads**, and click **Set up**. Spotify
+   restarts once.
+
+It installs [Spicetify](https://spicetify.app) into your user folder (no admin) and Gloop's
+bridge; Spicy Lyrics and Adblockify come from their own GitHub pages. When Spotify updates itself
+and the add-on goes, Gloop says so on the notch and **Reconnect** brings it back. **Remove** in
+the same place takes it all out again. Works with free Spotify accounts too. (Blocking ads goes
+against Spotify's terms, so it's your choice.)
 
 </details>
 
